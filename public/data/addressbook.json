@@ -1,0 +1,359 @@
+[{
+  "listTypePhones": ["Home Phone", "Cell Phone", "Work Phone", "Other Phone"],
+  "listTypeAddress": ["Home Address", "Mailing Address", "Office Address", "Work Address", "Other Address"],
+  "listContacts": [{
+      "contactID": 1,
+      "givenName": "John",
+      "surname": "Doe",
+      "email": "jondoe@gmail.com",
+      "phoneNumbers": [{
+          "phoneID": 1,
+          "phoneType": "Home Phone",
+          "phoneNumber": "415-555-1212"
+        },
+        {
+          "phoneID": 2,
+          "phoneType": "Mobile Phone",
+          "phoneNumber": "415-555-1313"
+        }
+      ],
+      "addresses": [{
+          "addressID": 1,
+          "addressType": "Home Address",
+          "street": "101 Main Street",
+          "city": "Somewhere",
+          "state": "CA",
+          "postalCode": "90001"
+        },
+        {
+          "addressID": 2,
+          "addressType": "Work Address",
+          "street": "101 First Street",
+          "city": "Somewhere",
+          "state": "CA",
+          "postalCode": "90002"
+        }
+      ]
+    },
+    {
+      "contactID": 2,
+      "givenName": "Jane",
+      "surname": "Smith",
+      "email": "janesmith@gmail.com",
+      "phoneNumbers": [{
+          "phoneID": 1,
+          "phoneType": "Home Phone",
+          "phoneNumber": "415-555-2222"
+        },
+        {
+          "phoneID": 2,
+          "phoneType": "Mobile Phone",
+          "phoneNumber": "415-555-3333"
+        }
+      ],
+      "addresses": [{
+          "addressID": 1,
+          "addressType": "Home Address",
+          "street": "200 Mayberry Street",
+          "city": "Nowhere",
+          "state": "CA",
+          "postalCode": "90003"
+        },
+        {
+          "addressID": 2,
+          "addressType": "Work Address",
+          "street": "300 Mulberry Street",
+          "city": "Nowhere",
+          "state": "CA",
+          "postalCode": "90004"
+        }
+      ]
+    },
+    {
+      "contactID": 3,
+      "givenName": "Joe",
+      "surname": "Schmoe",
+      "email": "joeschnoe@yahoo.com",
+      "phoneNumbers": [{
+        "phoneID": 1,
+        "phoneType": "Mobile Phone",
+        "phoneNumber": "415-555-4444"
+      }],
+      "addresses": [{
+        "addressID": 1,
+        "addressType": "Home Address",
+        "street": "500 Fifth Ave",
+        "city": "Someplace",
+        "state": "CA",
+        "postalCode": "90005"
+      }]
+    },
+    {
+      "contactID": 4,
+      "givenName": "Jill",
+      "surname": "Jones",
+      "email": "jilljones@gmail.com",
+      "phoneNumbers": [{
+        "phoneID": 1,
+        "phoneType": "Mobile Phone",
+        "phoneNumber": "415-555-1717"
+      }],
+      "addresses": [{
+        "addressID": 1,
+        "addressType": "Home Address",
+        "street": "300 Village Ave",
+        "city": "Anywhere",
+        "state": "CA",
+        "postalCode": "90006"
+      }]
+    },
+    {
+      "contactID": 5,
+      "givenName": "Bill",
+      "surname": "Rogers",
+      "email": "billrogers@yahoo.com",
+      "phoneNumbers": [{
+        "phoneID": 1,
+        "phoneType": "Mobile Phone",
+        "phoneNumber": "415-555-8888"
+      }],
+      "addresses": [{
+        "addressID": 1,
+        "addressType": "Home Address",
+        "street": "200 Second Street",
+        "city": "Anytown",
+        "state": "CA",
+        "postalCode": "90006"
+      }]
+    }
+  ],
+  "liststatessua": [{
+      "name": "Alabama",
+      "abbreviation": "AL"
+    },
+    {
+      "name": "Alaska",
+      "abbreviation": "AK"
+    },
+    {
+      "name": "American Samoa",
+      "abbreviation": "AS"
+    },
+    {
+      "name": "Arizona",
+      "abbreviation": "AZ"
+    },
+    {
+      "name": "Arkansas",
+      "abbreviation": "AR"
+    },
+    {
+      "name": "California",
+      "abbreviation": "CA"
+    },
+    {
+      "name": "Colorado",
+      "abbreviation": "CO"
+    },
+    {
+      "name": "Connecticut",
+      "abbreviation": "CT"
+    },
+    {
+      "name": "Delaware",
+      "abbreviation": "DE"
+    },
+    {
+      "name": "District Of Columbia",
+      "abbreviation": "DC"
+    },
+    {
+      "name": "Florida",
+      "abbreviation": "FL"
+    },
+    {
+      "name": "Georgia",
+      "abbreviation": "GA"
+    },
+    {
+      "name": "Guam",
+      "abbreviation": "GU"
+    },
+    {
+      "name": "Hawaii",
+      "abbreviation": "HI"
+    },
+    {
+      "name": "Idaho",
+      "abbreviation": "ID"
+    },
+    {
+      "name": "Illinois",
+      "abbreviation": "IL"
+    },
+    {
+      "name": "Indiana",
+      "abbreviation": "IN"
+    },
+    {
+      "name": "Iowa",
+      "abbreviation": "IA"
+    },
+    {
+      "name": "Kansas",
+      "abbreviation": "KS"
+    },
+    {
+      "name": "Kentucky",
+      "abbreviation": "KY"
+    },
+    {
+      "name": "Louisiana",
+      "abbreviation": "LA"
+    },
+    {
+      "name": "Maine",
+      "abbreviation": "ME"
+    },
+    {
+      "name": "Marshall Islands",
+      "abbreviation": "MH"
+    },
+    {
+      "name": "Maryland",
+      "abbreviation": "MD"
+    },
+    {
+      "name": "Massachusetts",
+      "abbreviation": "MA"
+    },
+    {
+      "name": "Michigan",
+      "abbreviation": "MI"
+    },
+    {
+      "name": "Minnesota",
+      "abbreviation": "MN"
+    },
+    {
+      "name": "Mississippi",
+      "abbreviation": "MS"
+    },
+    {
+      "name": "Missouri",
+      "abbreviation": "MO"
+    },
+    {
+      "name": "Montana",
+      "abbreviation": "MT"
+    },
+    {
+      "name": "Nebraska",
+      "abbreviation": "NE"
+    },
+    {
+      "name": "Nevada",
+      "abbreviation": "NV"
+    },
+    {
+      "name": "New Hampshire",
+      "abbreviation": "NH"
+    },
+    {
+      "name": "New Jersey",
+      "abbreviation": "NJ"
+    },
+    {
+      "name": "New Mexico",
+      "abbreviation": "NM"
+    },
+    {
+      "name": "New York",
+      "abbreviation": "NY"
+    },
+    {
+      "name": "North Carolina",
+      "abbreviation": "NC"
+    },
+    {
+      "name": "North Dakota",
+      "abbreviation": "ND"
+    },
+    {
+      "name": "Ohio",
+      "abbreviation": "OH"
+    },
+    {
+      "name": "Oklahoma",
+      "abbreviation": "OK"
+    },
+    {
+      "name": "Oregon",
+      "abbreviation": "OR"
+    },
+    {
+      "name": "Palau",
+      "abbreviation": "PW"
+    },
+    {
+      "name": "Pennsylvania",
+      "abbreviation": "PA"
+    },
+    {
+      "name": "Puerto Rico",
+      "abbreviation": "PR"
+    },
+    {
+      "name": "Rhode Island",
+      "abbreviation": "RI"
+    },
+    {
+      "name": "South Carolina",
+      "abbreviation": "SC"
+    },
+    {
+      "name": "South Dakota",
+      "abbreviation": "SD"
+    },
+    {
+      "name": "Tennessee",
+      "abbreviation": "TN"
+    },
+    {
+      "name": "Texas",
+      "abbreviation": "TX"
+    },
+    {
+      "name": "Utah",
+      "abbreviation": "UT"
+    },
+    {
+      "name": "Vermont",
+      "abbreviation": "VT"
+    },
+    {
+      "name": "Virgin Islands",
+      "abbreviation": "VI"
+    },
+    {
+      "name": "Virginia",
+      "abbreviation": "VA"
+    },
+    {
+      "name": "Washington",
+      "abbreviation": "WA"
+    },
+    {
+      "name": "West Virginia",
+      "abbreviation": "WV"
+    },
+    {
+      "name": "Wisconsin",
+      "abbreviation": "WI"
+    },
+    {
+      "name": "Wyoming",
+      "abbreviation": "WY"
+    }
+  ]
+}]

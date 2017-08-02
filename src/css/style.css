@@ -1,0 +1,229 @@
+.addressbook .header .nquest {
+  margin: 35px 0 0;
+}
+
+.addressbook .list-group {
+  border-radius: 0px;
+}
+
+.addressbook .list-group .list-group-item {
+  cursor: pointer;
+  margin-bottom: -2px;
+}
+
+.addressbook .list-group .list-group-item:hover {
+  background: #eeeeee;
+}
+
+.addressbook .list-group .list-group-item.active:hover {
+  background: #337ab7;
+}
+
+.addressbook .list-group-item:first-child {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.addressbook .list-group-item:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  font-style: italic;
+}
+
+.addressbook span {
+  color: green;
+  margin-right: 10px;
+}
+
+.addressbook .header-button .btn-sm {
+  border: 0px;
+  margin: 15px 0;
+  padding: 10px 22px;
+}
+
+.addressbook .content {
+  border: 1px solid #dddddd;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.addressbook .form-horizontal {
+  padding: 40px;
+  clear: both;
+}
+
+.addressbook .formtoplink {
+  margin: 15px;
+  color: blue;
+  cursor: pointer;
+}
+
+.addressbook .formtoplinkdelete {
+  margin: 15px;
+  color: red;
+  cursor: pointer;
+}
+
+.addressbook .sidebar {
+  padding-left: 0px;
+}
+
+.addressbook .info-curentuser .control-label, .addressbook .form-curentuser .control-label {
+  font-weight: normal;
+}
+
+.addressbook .info-curentuser .valueline {
+  font-weight: 700;
+  margin: 7px 0 0;
+}
+.addressbook .info-curentuser .form-group {
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 17px;
+}
+.addressbook .info-curentuser .form-group .control-label {
+  text-align: left;
+}
+.addressbook .info-curentuser .form-group:last-child {
+  border-bottom: 0px;
+}
+.addressbook .form-control {
+  border-radius: 0px;
+  width: 100%;
+}
+
+.addressbook .addnewinfo {
+  font-style: italic;
+  cursor: pointer;
+}
+
+.addressbook .glyphicon-remove {
+  color: red;
+  cursor: pointer;
+}
+
+.addressbook .glyphicon-triangle-bottom {
+  color: grey;
+  position: relative;
+  left: 10px;
+  top: 3px;
+  cursor: pointer;
+}
+
+.addressbook .shortInput {
+  width: 32%;
+  margin: 2% 2% 0 0;
+  float: left;
+}
+.addressbook select {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #dddddd;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+.addressbook option {
+  padding-top:15px;
+}
+.addressbook .lastinput {
+  margin-right: 0;
+}
+
+.addressbook .dropaction {
+  position: relative;
+  padding-bottom: 8px;
+}
+
+.addressbook .dropaction .list-group {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  border-bottom: 1px solid #dddddd;
+  top: 35px;
+}
+
+.addressbook .dropaction .list-group div {
+  padding: 5px 10px;
+  width: 138px;
+  text-align: left;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-bottom: none;
+  cursor: pointer;
+}
+
+.addressbook .dropaction .list-group div:hover {
+  background: #337ab7;
+  color: #ffffff;
+}
+
+.addressbook .background-popup {
+  position: absolute;
+  background: #999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  opacity: 0.8;
+}
+
+.addressbook .boxpopup {
+  width: 360px;
+  height: 200px;
+  position: absolute;
+  top: 0px;
+  z-index: 99;
+  left: 38%;
+  border: 1px solid #888888;
+  border-radius: 0;
+  background: rgb(255, 255, 255);
+  margin: 10% auto 0px;
+  padding: 24px;
+}
+
+.addressbook .boxpopup p {
+  text-align: center;
+  display: block;
+  padding: 25px 0;
+}
+
+.addressbook .boxpopup button {
+  border: none;
+  padding: 7px 17px;
+}
+
+.addressbook .help-block {
+  color: red;
+  clear: both;
+  padding: 10px 0;
+  margin: 0;
+}
+.addressbook .visible-no-activ {
+  opacity: 0.1;
+}
+.footer {
+  text-align: center;
+  background: #454545;
+  color: #999999;
+  padding: 14px 0 5px;
+  font-size: 12px;
+}
+@media only screen and (max-width: 768px) {
+  .addressbook .content {
+    margin: 15px;
+  }
+  .addressbook .sidebar {
+    padding-left: 15px;
+  }
+  .addressbook .shortInput {
+    width:100%;
+  }
+  .addressbook .dropaction .list-group {
+    top: 20px;
+  }
+  .addressbook h2 {
+    font-size: 25px;
+  }
+  .addressbook .header .nquest {
+    margin: 30px 0 0;
+  }
+}
