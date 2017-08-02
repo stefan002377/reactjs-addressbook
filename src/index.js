@@ -612,10 +612,8 @@ class AddressBook extends React.Component {
           <div className="boxpopup">
              <p>Are you sure you want to delete it?</p>
              <div className="row">
-               <div className="col-md-6 col-lg-6 col-sm-6 text-right">
+               <div className="col-md-12 col-lg-12 col-sm-12 text-center">
                  <button className="btn-sm btn-danger" onClick={()=>this.deleteContact()}>Delete</button>
-               </div>
-               <div className="col-md-6 col-lg-6 col-sm-6 text-left">
                  <button className="btn-sm btn-info" onClick={()=>this.noPopup()}>Keep</button>
                </div>
              </div>

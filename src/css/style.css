@@ -154,9 +154,8 @@
   background: #337ab7;
   color: #ffffff;
 }
-
 .addressbook .background-popup {
-  position: absolute;
+  position: fixed;
   background: #999;
   left: 0;
   top: 0;
@@ -165,19 +164,20 @@
   z-index: 9;
   opacity: 0.8;
 }
-
 .addressbook .boxpopup {
-  width: 360px;
-  height: 200px;
   position: absolute;
-  top: 0px;
-  z-index: 99;
-  left: 38%;
-  border: 1px solid #888888;
-  border-radius: 0;
-  background: rgb(255, 255, 255);
-  margin: 10% auto 0px;
-  padding: 24px;
+  width: 360px;
+  height: 180px;
+  background: #fff;
+  left: 50%;
+  top: 50%;
+  border-radius: 5px;
+  padding: 30px 0 60px 0;
+  margin-left: -200px;
+  margin-top: -150px;
+  text-align: center;
+  border: 3px solid #dddddd;
+  z-index: 99999;
 }
 
 .addressbook .boxpopup p {
@@ -189,6 +189,7 @@
 .addressbook .boxpopup button {
   border: none;
   padding: 7px 17px;
+  margin:0 15px;
 }
 
 .addressbook .help-block {
@@ -197,15 +198,11 @@
   padding: 10px 0;
   margin: 0;
 }
-.addressbook .visible-no-activ {
+.addressbook .visible-no-activ .list-group-item {
   opacity: 0.1;
 }
-.footer {
-  text-align: center;
-  background: #454545;
-  color: #999999;
-  padding: 14px 0 5px;
-  font-size: 12px;
+.addressbook .visible-no-activ .active{
+  opacity: 1;
 }
 @media only screen and (max-width: 768px) {
   .addressbook .content {
@@ -225,5 +222,10 @@
   }
   .addressbook .header .nquest {
     margin: 30px 0 0;
+  }
+  .addressbook .boxpopup {
+    width: 240px;
+    margin-left: -120px;
+    z-index: 99999;
   }
 }
